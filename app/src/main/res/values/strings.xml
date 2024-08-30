@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewModelDice</string>
+    <string name="rolls_attemps">Intentos: %1$d</string>
+    <string name="throw_your_dices">Lanza tus dados</string>
+    <string name="roll_dices">Roll Dices</string>
+    <string name="equal_dices">pares</string>
+</resources>
