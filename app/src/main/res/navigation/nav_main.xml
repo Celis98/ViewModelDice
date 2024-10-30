@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/dicesFragment">
+
+    <fragment
+        android:id="@+id/dicesFragment"
+        android:name="com.example.viewmodeldice.ui.dices.DicesFragment"
+        android:label="erewrwer"
+        tools:layout="@layout/fragment_dices">
+        <action
+            android:id="@+id/action_dicesFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.viewmodeldice.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <argument
+            android:name="is_lucky_user"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="number_of_attempts"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

@@ -4,4 +4,6 @@
     <string name="throw_your_dices">Lanza tus dados</string>
     <string name="roll_dices">Roll Dices</string>
     <string name="equal_dices">pares</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
